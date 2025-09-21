@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aurora Shop — Cart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="page-cart">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Aurora<span class="accent">Shop</span></a>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cart.html" aria-current="page" class="cart-link">Cart <span id="cartCount" class="cart-count">0</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="section-title">Your Cart</h1>
+
+    <div id="cartEmpty" class="cart-empty">Your cart is empty. <a href="products.html">Browse products</a>.</div>
+
+    <div id="cartContainer" class="cart-container" style="display:none;">
+      <table class="cart-table" id="cartTable" aria-live="polite">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Subtotal</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="cartBody"></tbody>
+      </table>
+
+      <div class="cart-summary">
+        <div>
+          <p>Subtotal: <strong id="cartSubtotal">$0.00</strong></p>
+          <p>Shipping: <strong id="cartShipping">$5.00</strong></p>
+          <p class="total">Total: <strong id="cartTotal">$0.00</strong></p>
+        </div>
+        <div>
+          <button id="clearCartBtn" class="btn btn-ghost">Clear Cart</button>
+          <button id="checkoutBtn" class="btn btn-primary">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>AuroraShop</h3>
+        <p>Crafted with care — made for you.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: hello@aurorashop.example</p>
+      </div>
+    </div>
+    <div class="mini-footer">
+      <p>&copy; 2025 AuroraShop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

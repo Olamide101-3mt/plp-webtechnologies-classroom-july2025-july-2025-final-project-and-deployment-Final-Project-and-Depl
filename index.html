@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aurora Shop — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="page-home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Aurora<span class="accent">Shop</span></a>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cart.html" class="cart-link">Cart <span id="cartCount" class="cart-count">0</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Find your vibe.<br /><span class="accent">Style</span meets comfort.</h1>
+          <p class="lead">Beautifully curated products for everyday living. Fast shipping — great service.</p>
+          <p>
+            <a class="btn btn-primary" href="products.html">Shop Products</a>
+            <a class="btn btn-ghost" href="about.html">Learn More</a>
+          </p>
+        </div>
+
+        <figure class="hero-media" aria-hidden="true">
+          <img src="https://picsum.photos/seed/hero/900/600" alt="Stylish products display" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="container features">
+      <div class="feature">
+        <h3>Free Shipping</h3>
+        <p>Free standard shipping on orders above $75.</p>
+      </div>
+      <div class="feature">
+        <h3>Secure Payments</h3>
+        <p>We use industry-standard encryption for all payments.</p>
+      </div>
+      <div class="feature">
+        <h3>Quality Guarantee</h3>
+        <p>Handpicked products with careful quality checks.</p>
+      </div>
+    </section>
+
+    <!-- SELECT PRODUCTS (featured from product list) -->
+    <section class="container section">
+      <h2 class="section-title">Featured Products</h2>
+      <div id="featuredGrid" class="products-grid"></div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container">
+        <h2>Ready to refresh your space?</h2>
+        <a class="btn btn-primary" href="products.html">Browse All Products</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>AuroraShop</h3>
+        <p>Crafted with care — made for you.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: hello@aurorashop.example</p>
+      </div>
+    </div>
+    <div class="mini-footer">
+      <p>&copy; 2025 AuroraShop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
