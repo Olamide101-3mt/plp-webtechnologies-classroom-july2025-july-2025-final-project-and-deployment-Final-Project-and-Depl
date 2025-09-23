@@ -1,90 +1,73 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+E-commerce Website
+📖 Project Overview
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+This project is a fully functional multi-page E-commerce website built with HTML, CSS, and JavaScript.
+It demonstrates responsive design, smooth animations, and interactivity to provide a real-world online shopping experience.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+The website allows users to:
 
----
+Browse products by category
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+Add items to a shopping cart
 
-Before you write any code, take time to plan:
+View total cost dynamically
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Navigate across multiple pages seamlessly
 
-**Goal:** Show intentional structure and user journey across the site.
+🎯 Features
 
----
+Responsive Design 📱💻
+Works smoothly on desktop, tablet, and mobile screens.
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+Multi-page Layout 🗂️
+Includes Home, Shop, Cart, About, Contact pages.
 
-Using your plan, begin building:
+Interactive Elements ⚡
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+Dynamic shopping cart
 
-Each page should:
+Hover effects and animations
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+JavaScript-driven interactivity
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+Modern UI/UX 🎨
 
----
+Attractive color palette
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+Smooth transitions
 
-Before deployment, refactor your project to follow production-friendly practices:
+Consistent header & footer
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+🗂️ Project Structure
+ecommerce-website/
+│── index.html # Homepage
+│── product.html # Product listing page
+│── cart.html # Shopping cart
+│── about.html # About page
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+│
+│── css/
+│ └── styles.css # Styling and responsive design
+│
+│── js/
+│ └── script.js # JavaScript logic for interactivity
+│
+│── README.md # Project documentation
 
----
+⚙️ Technologies Used
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+HTML5 – Semantic page structure
 
-Once your project is complete, choose a method to **host your site online**.
+CSS3 – Styling, responsiveness, animations
 
-You can use:
+JavaScript (ES6) – Shopping cart functionality, DOM manipulation
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+🚀 Deployment
 
-Deploy your project and confirm that:
+This website has been deployed using GitHub pages.
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+LiveLink (https://olamide101-3mt.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
-**Goal:** Publish your work online and make it accessible to the world.
+👨‍💻 Author
 
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Olamide Wahab
